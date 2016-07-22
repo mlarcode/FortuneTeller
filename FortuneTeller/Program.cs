@@ -21,10 +21,10 @@ namespace FortuneTeller
             Console.WriteLine("Hello" + firstname + lastname);
 
             //Ask for user age
-            int x;
+            
             Console.WriteLine("What is your age?");
             int age = int.Parse(Console.ReadLine());
-            if  (x%2==0)
+            if  (age % 2==0)
             {
                 //This will only appear when the number is even
                 Console.WriteLine(" You will retire in 6 years");
@@ -116,7 +116,9 @@ namespace FortuneTeller
             }
             Console.ReadKey();
             }
+
             {
+
             }
 
 
